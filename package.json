@@ -11,10 +11,10 @@
     "build:client": "cross-env NODE_ENV=production webpack --config build/webpack.config.client",
     "build": "npm run clean && npm run build:client",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.client",
-    "precommit": "npm run lint"
+    "precommit": "lint-staged"
   },
   "lint-staged": {
-    "{client}/**/*.{js, jsx, vue}": [
+    "client/**/*.{js, jsx, vue}": [
       "eslint --ext .js,.jsx,.vue",
       "git add"
     ]
