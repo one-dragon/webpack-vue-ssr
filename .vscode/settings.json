@@ -1,0 +1,10 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+        // "source.fixAll.eslint": false
+    },
+    "eslint.validate": [ //开启对.vue文件中错误的检查
+        "javascript", "javascriptreact", "typescript", "typescriptreact", "html", "vue"
+    ],
+    "eslint.options": { "configFile": ".eslintrc" }
+}
