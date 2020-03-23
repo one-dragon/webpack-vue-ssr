@@ -14,5 +14,10 @@
         // https://github.com/standard/standard/blob/master/docs/RULES-en.md
         "standard"
     ],
-    "rules": {}
+    "rules": {
+        "no-new": "off",
+        "indent": ["error", 4],
+        "no-console": "off",
+        "no-debugger": "off"
+    }
 }
