@@ -5,6 +5,13 @@
     <todo></todo>
     <Footer></Footer> -->
     <!-- <notification content="test notify"></notification> -->
+    <tabs value="1">
+        <tab label="tab1" index="1"></tab>
+        <tab index="2">
+            <span slot="label" style="color: red;">tab2</span>
+        </tab>
+        <tab label="tab3" index="3"></tab>
+    </tabs>
     <router-view />
     <button @click="notify">click me</button>
   </div>

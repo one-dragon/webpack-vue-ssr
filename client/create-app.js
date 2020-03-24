@@ -11,7 +11,9 @@ import createStore from './store/index'
 import './assets/styles/global.styl'
 
 import Notification from './components/notification'
+import Tabs from './components/tabs'
 Vue.use(Notification)
+Vue.use(Tabs)
 
 Vue.use(VueRouter)
 Vue.use(Vuex)
